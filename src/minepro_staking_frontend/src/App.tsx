@@ -627,7 +627,7 @@ function App() {
                               </option>
                             ))}
                           </select>
-                          <p className="text-left ml-1 mt-1 text-sm font-light">Balance: {(parseFloat(transferTokenBalance.toString()) / 100000000).toLocaleString()} {" "}
+                          <p className="text-left ml-1 mt-1 text-sm font-light">Balance: {(parseFloat(transferTokenBalance.toString()) / 100000000)} {" "}
                             {tokens.find((t) => t.address === transferTokenPrincipal)
                                   ?.name || tokens[0].name
                             }
